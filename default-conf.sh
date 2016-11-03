@@ -1,5 +1,3 @@
-apk add --update curl
-
 export host=\$host;
 export proxy_add_x_forwarded_for=\$proxy_add_x_forwarded_for;
 
