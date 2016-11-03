@@ -82,7 +82,7 @@ http {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
         resolver 8.8.8.8;
-        proxy_pass http://$CONTEXT/$CONTEXT;
+        proxy_pass http://$CONTEXT/;
         proxy_redirect default;
         proxy_cookie_path /$CONTEXT /$CONTEXT;
         proxy_http_version 1.1;
